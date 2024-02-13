@@ -1,4 +1,4 @@
-window.addEventListener("load", (event) => {
+function run() {
     alert()
 async function logIP() {
   const response = await fetch("https://ipapi.co/json");
@@ -6,4 +6,4 @@ async function logIP() {
   console.log(data);
 }
 logIP();
-});
+}
