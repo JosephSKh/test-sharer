@@ -1,4 +1,4 @@
-function runMyScript() {
+var runMyScript = function() {
     alert()
 async function logIP() {
   const response = await fetch("https://ipapi.co/json");
